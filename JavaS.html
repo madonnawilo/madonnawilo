@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Java.com</title>
+</head>
+<body>
+	<p id="xx"></p>
+	<p id="mm"></p>
+	<p id="dd"></p>
+	<p id="rr"></p>
+	<p id="demo"></p>
+	<p id="ah"></p>
+	<p id="us"></p>
+	<p id="ai"></p>
+	<p id="aj"></p>
+	<p id="ak"></p>
+	<p id="al"></p>
+	<p id="am"></p>
+	<p id="an"></p>
+<script type="text/javascript">
+		let x=9;
+		let y=5;
+		let z= x % y;
+		document.getElementById("xx").innerHTML="the result of z is:" + z;
+        let m=11;
+		m++;
+		let h=m;
+		document.getElementById("mm").innerHTML="the result of z is:" + h;
+		let d=5;
+		let e=d**3;
+		document.getElementById("dd").innerHTML="the result of e is:" + e;
+		let i=25;
+		let r=Math.pow(i,2);
+		document.getElementById("rr").innerHTML=" the result of r is:" + r;
+		document.getElementById("demo").innerHTML=100+50*3;
+
+		//creating array methods
+		//1. Get the third element of fruits using at():
+
+		const animals = ["coew", "Goat," "Elephant", "Sheep"];
+		let animal =animals.at(2);
+		document.getElementById("ah").innerHTML= animal;
+``
+		//2. Get the third element of fruits using []:
+
+		const words = ["let", "us", "go", "school"];
+		let words = words [2];
+		document.getElementById("ai").innerHTML= word;
+
+		//JavaScript Array join()
+		const materials = ["computer", "remote","cable","extesnion"];
+		document.getElementById("aj").innerHTML= materials.join(" * ");
+
+		//JavaScript Array pop()
+		const candidates = ["Nyandiet", "ter", "yusuf", "jeromi"];
+		document.getElementById("ak").innerHTML= candidates; candidates.pop();
+		document.getElementById("al").innerHTML= candidates;
+
+		//JavaScript Arrays sort() Method
+		const lakes=["victoria","turkana","baringo","naivasha"];
+		document.getElementById("am").innerHTML= lakes;
+
+		lakes.sort();
+		document.getElementById("an").innerHTML=lakes;
+
+		//Reversing an Array
+		const events=["birthday", "wedding","naming", "sacrifacies"                          ]
+  
+</script>
+
+</body>
+</html>
